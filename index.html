@@ -184,7 +184,6 @@
         #onlineUsersContainer {
           max-height: 200px;
           width: 95%;
-         
         }
       }
     </style>
@@ -219,7 +218,7 @@
       const userId = "user-" + Math.random().toString(36).substr(2, 9);
       document.getElementById("userIdDisplay").innerText = userId;
 
-      const socket = io("https://socket-server-2ss7.onrender.com", {
+      const socket = io("https://socket-ic4t.onrender.com", {
         query: { userId },
       });
       const localVideo = document.getElementById("localVideo");
